@@ -52,7 +52,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   //sort the card randomly
   cardArr.sort(() => 0.5 - Math.random());
-
   const grid = document.querySelector(".grid");
   const resultDisplay = document.getElementById("result");
   var cardChosen = [];
@@ -70,9 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
       grid.appendChild(card);
     }
   }
-
   //checkforMatch function
-
   function checkForMatch() {
     var cards = document.querySelectorAll("img");
     const optionOneId = cardChosenID[0];
@@ -101,7 +98,6 @@ document.addEventListener("DOMContentLoaded", () => {
       resultDisplay.textContent = "Congrats! You Won!";
     }
   }
-
   //flipCard function
   function flipCard() {
     var cardId = this.getAttribute("data-id");
