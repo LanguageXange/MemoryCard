@@ -1,4 +1,4 @@
-# Test your memory (flip the card)
+# Test your memory (flip the card game with JavaScript)
 #### Live at https://languagexange.github.io/MemoryCard/
 
 icons downloaded from flaticon.com
